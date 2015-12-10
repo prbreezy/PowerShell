@@ -12,5 +12,4 @@
 #	- Set AWS Access key to be able to upload to S3
 #	- Verify that the server have access to the remote computer and shared folder
 # ---------------------------------------------------------------------
-
 aws s3 cp s3://mybuckets3/Server1/ d:\Server1 --recursive 
